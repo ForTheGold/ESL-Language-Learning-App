@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 1</title>
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/chat.css">
+
+</head>
+	<body>
+
+<link rel="stylesheet" type="text/css" href="styles/lesson1.css">
+	<div class="navbar">
+		<ul>
+			<li><a href="#" onclick="learn()">Learn</a></li>
+			<li><a href="#" onclick="answerPractice()">Response Practice</a></li>
+			<li><a href="#" onclick="questionPractice()">Question Practice</a></li>
+			<li><a href="#" onclick="chat()">Chat Practice</a></li>
+			<li><a href="#" onclick="listen()">Listening and Speaking Practice</a></li>
+		</ul>
+	</div>
+
+	<div class="wrapper">
+		<div class="learn" id="learn">
+				<h1>Memorize this conversation</h1>
+				<p>John: Hello! What is your name?</p>
+				<p>Svetlana: Hi!  My name is Svetlana.</p>
+				<p>John: How old are you?</p>
+				<p>Svetlana: I am twenty three years old.</p>
+				<p>John: What do you do?</p>
+				<p>Svetlana: I am a teacher.</p>
+				<p>John: Where are you from?</p>
+				<p>Svetlana: I am from Russia.</p>
+				<p>John: What is your nationality?</p>
+				<p>Svetlana: I am Russian.</p>
+		</div>
+
+		<div class="answer-practice" id="answer-practice">
+			<div class="zero" id="zero">
+				<h1>Choose the correct answer</h1>
+				<p>John: Hello! What is your name?</p>
+				<p>Svetlana: Hi!  My name is <select id="select-name">
+												<option value="andy">Andy</option>
+												<option value="yumiko">Yumiko</option>
+												<option value="svetlana">Svetlana</option>
+											</select>.</p>
+				<p class="error" id="select-name-error"></p>
+				<p>John: How old are you?</p>
+				<p>Svetlana: I am <select id="select-age">
+									<option value="23">twenty three</option>
+									<option value="19">nineteen</option>
+									<option value="30">thirty</option>
+								</select> years old.</p>
+				<p class="error" id="select-age-error"></p>
+				<p>John: What do you do?</p>
+				<p>Svetlana: I am a <select id="select-job">
+										<option value="doctor">doctor</option>
+										<option value="lawyer">lawyer</option>
+										<option value="teacher">teacher</option>
+									</select>.</p>
+				<p class="error" id="select-job-error"></p>
+				<p>John: Where are you from?</p>
+				<p>Svetlana: I am from <select id="select-country">
+											<option value="japan">Japan</option>
+											<option value="england">England</option>
+											<option value="russia">Russia</option>
+										</select>.</p>
+				<p class="error" id="select-country-error"></p>
+				<p>John: What is your nationality?</p>
+				<p>Svetlana: I am <select id="select-russian">
+									<option value="german">German</option>
+									<option value="russian">Russian</option>
+									<option value="english">English</option>
+								</select>.</p>
+				<p class="error" id="select-russian-error"></p>
+				<button type="submit" onclick="one()">More Practice</button>
+				<p id="select-answer-error error"></p>
+			</div>
+
+			<div class="one" id="one">
+				<h1>Fill in the Blank</h1>
+				<p>John: Hello! What is your name?</p>
+				<p>Svetlana: Hi!  My <input type="textbox" name="fib1-name" id="fib1-name" size="4"> is Svetlana.</p>
+				<p class="error" id="fib1-name-error"></p>
+				<p>John: How old are you?</p>
+				<p>Svetlana: I <input type="textbox" name="fib1-am" id="fib1-am" size="4"> twenty three years old.</p>
+				<p class="error" id="fib1-am-error"></p>
+				<p>John: What do you do?</p>
+				<p>Svetlana: I am a <input type="textbox" name="fib1-teacher" id="fib1-teacher" size="4">.</p>
+				<p class="error" id="fib1-teacher-error"></p>
+				<p>John: Where are you from?</p>
+				<p>Svetlana: I am <input type="textbox" name="fib1-from" id="fib1-from" size="4"> Russia.</p>
+				<p class="error" id="fib1-from-error"></p>
+				<p>John: What is your nationality?</p>
+				<p>Svetlana: I <input type="textbox" name="fib1-am2" id="fib1-am2" size="4"> Russian.</p>
+				<p class="error" id="fib1-am2-error error"></p>
+				<button type="submit" onclick="two()">More Practice</button>
+				<p class="error" id="fib1-error"></p>
+			</div>
+
+			<div class="two" id="two">
+				<h1>Fill in the Blank</h1>
+				<p>John: Hello! What is your name?</p>
+				<p>Svetlana: Hi!  <input type="textbox" name="fib2-my" id="fib2-my" size="4"> <input type="textbox" name="fib2-name" id="fib2-name" size="4"> <input type="textbox" name="fib2-is" id="fib2-is" size="4"> Svetlana.</p>
+				<p class="error" id="fib2-error"></p>
+				<p>John: How old are you?</p>
+				<p>Svetlana: <input type="textbox" name="fib2-i" id="fib2-i" size="4"> <input type="textbox" name="fib2-am" id="fib2-am" size="4"> twenty three <input type="textbox" name="fib2-years" id="fib2-years" size="4"> <input type="textbox" name="fib2-old" id="fib2-old" size="4">.</p>
+				<p class="error" id="fib2-error2"></p>
+				<p>John: What do you do?</p>
+				<p>Svetlana: <input type="textbox" name="fib2-i2" id="fib2-i2" size="4"> <input type="textbox" name="fib2-am2" id="fib2-am2" size="4"> <input type="textbox" name="fib2-a" id="fib2-a" size="4"> teacher.</p>
+				<p class="error" id="fib2-error3"></p>
+				<p>John: Where are you from?</p>
+				<p>Svetlana: <input type="textbox" name="fib2-i3" id="fib2-i3" size="4"> <input type="textbox" name="fib2-am3" id="fib2-am3" size="4"> <input type="textbox" name="fib2-from" id="fib2-from" size="4"> Russia.</p>
+				<p class="error" id="fib2-error4"></p>
+				<p>John: What is your nationality?</p>
+				<p>Svetlana: <input type="textbox" name="fib2-i4" id="fib2-i4" size="4"> <input type="textbox" name="fib2-am4" id="fib2-am4" size="4"> Russian.</p>
+				<p class="error" id="fib2-error5"></p>
+				<button type="submit" onclick="three()">Next</button>
+			</div>
+
+			<div class="three" id="three">
+				<h1>Great Work!  Try the Question Practice</h1>
+			</div>
+		</div>
+
+		<div class="question-practice" id="question-practice">
+			<div class="four" id="four">
+				<h1>Choose the correct answer</h1>
+				<p>John: Hello! <select id="select-what">
+									<option value="how">How</option>
+									<option value="what">What</option>
+									<option value="where">Where</option>
+								</select> is your name?</p>
+				<p class="error"  id="select-what-error"></p>
+				<p>Svetlana: Hi!  My name is Svetlana.</p>
+				
+				<p>John: How <select id="select-old">
+								<option value="do">do</option>
+								<option value="age">age</option>
+								<option value="old">old</option>
+							</select>  are you?</p>
+				<p class="error"  id="select-old-error"></p>
+				<p>Svetlana: I am twenty three years old.</p>
+				<p>John: What <select id="select-do">
+								<option value="do">do</option>
+								<option value="be">be</option>
+								<option value="job">job</option>
+							</select> you do?</p>
+				<p class="error"  id="select-do-error"></p>
+				<p>Svetlana: I am a teacher.</p>
+				<p>John: Where are you <select id="select-from">
+											<option value="for">for</option>
+											<option value="to">to</option>
+											<option value="from">from</option>
+										</select>?</p>
+				<p class="error" id="select-from-error"></p>
+				<p>Svetlana: I am from Russia.</p>
+				<p>John: What is your <select id="select-nationality">
+										<option value="citizenship">citizenship</option>
+										<option value="nationality">nationality</option>
+										<option value="country">country</option>
+									</select>?</p>
+				<p class="error" id="select-nationality-error"></p>
+				<p>Svetlana: I am Russian.</p>
+				<button type="submit" onclick="four()">More Practice</button>
+				<p class="error" id="select-question-error"></p>
+			</div>
+
+			<div class="five" id="five">
+				<h1>Fill in the Blank</h1>
+				<p>John: Hello! What is <input type="textbox" name="fib3-your" id="fib3-your" size="4"> name?</p>
+				<p class="error" id="fib3-your-error"></p>
+				<p>Svetlana: Hi!  My name is Svetlana.</p>
+				<p>John: How old <input type="textbox" name="fib3-are" id="fib3-are" size="4"> you?</p>
+				<p class="error" id="fib3-are-error"></p>
+				<p>Svetlana: I am twenty three years old.</p>
+				<p>John: What <input type="textbox" name="fib3-do" id="fib3-do" size="4"> you do?</p>
+				<p class="error" id="fib3-do-error"></p>
+				<p>Svetlana: I am a teacher.</p>
+				<p>John: <input type="textbox" name="fib3-where" id="fib3-where" size="4"> are you from?</p>
+				<p class="error" id="fib3-where-error"></p>
+				<p>Svetlana: I am from Russia.</p>
+				<p>John: What <input type="textbox" name="fib3-is" id="fib3-is" size="4"> your nationality?</p>
+				<p class="error" id="fib3-is-error"></p>
+				<p>Svetlana: I am Russian.</p>
+				<button type="submit" onclick="five()">More Practice</button>
+				<p class="error" id="fib3-error"></p>
+			</div>
+
+			<div class="six" id="six">
+				<h1>Fill in the Blank</h1>
+				<p>John: Hello! <input type="textbox" name="fib4-what" id="fib4-what" size="4"> <input type="textbox" name="fib4-is" id="fib4-is" size="4"> <input type="textbox" name="fib4-your" id="fib4-your" size="4"> <input type="textbox" name="fib4-name" id="fib4-name" size="4">?</p>
+				<p class="error" id="fib4-error"></p>
+				<p>Svetlana: Hi!  My name is Svetlana.</p>
+				<p>John: <input type="textbox" name="fib4-how" id="fib4-how" size="4"> <input type="textbox" name="fib4-old" id="fib4-old" size="4"> are <input type="textbox" name="fib4-you" id="fib4-you" size="4">?</p>
+				<p class="error" id="fib4-error2"></p>
+				<p>Svetlana: I am twenty three years old.</p>
+				<p>John: <input type="textbox" name="fib4-what2" id="fib4-what2" size="4"> do <input type="textbox" name="fib4-you2" id="fib4-you2" size="4"> <input type="textbox" name="fib4-do" id="fib4-do" size="4">?</p>
+				<p class="error" id="fib4-error3"></p>
+				<p>Svetlana: I am a teacher.</p>
+				<p>John: <input type="textbox" name="fib4-where" id="fib4-where" size="4"> are <input type="textbox" name="fib4-you3" id="fib4-you3" size="4"> <input type="textbox" name="fib4-from" id="fib4-from" size="4">?</p>
+				<p class="error" id="fib4-error4"></p>
+				<p>Svetlana: I am from Russia.</p>
+				<p>John: What <input type="textbox" name="fib4-is" id="fib4-is" size="4"> <input type="textbox" name="fib4-your2" id="fib4-your2" size="4"> <input type="textbox" name="fib4-nationality" id="fib4-nationality" size="10">?</p>
+				<p class="error" id="fib4-error5"></p>
+				<p>Svetlana: I am Russian.</p>
+				<button type="submit" onclick="six()">Next</button>
+			</div>
+
+			<div class="seven" id="seven">
+				<h1>Great Work!  Try the Chat Practice</h1>
+			</div>
+		</div>
+
+		<div class="chat" id="chat">
+			<div class="eight" id="eight">
+				<button type="submit" onclick="eight()">More Practice</button>
+				<p class="error" id="error1"></p>
+				<div class="chat-box">
+					<div class="chat-head">
+						<h2>Svetlana</h2>
+					</div>
+					<div class="chat-body">
+						<div class="msg-insert" id="msg-insert1">
+							<div class="msg-receive"> What is your name? </div>
+						</div>
+						<div class="chat-text">
+							<textarea id="chat-area1" placeholder="Send"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="nine" id="nine">
+				<button type="submit" onclick="nine()">Next</button>
+				<button type="submit" onclick="hint()">Hint</button>
+				<p class="hint" id="hint"></p>
+				<p class="error" id="error2"></p>
+				<div class="chat-box">
+					<div class="chat-head">
+						<h2>Svetlana</h2>
+					</div>
+					<div class="chat-body">
+						<div class="msg-insert" id="msg-insert2"></div>
+						<div class="chat-text">
+							<textarea id="chat-area2" placeholder="Send"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ten" id="ten">
+				<h1>Great Work!  Try the Listening and Speaking Practice</h1>
+			</div>
+		</div>
+
+		<div class="listen" id="listen">
+
+			<div class="eleven" id="eleven">
+				<h1>Listen to the conversation again</h1>
+				<p onclick="johnRead1()">John: Hello! What is your name?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="svetlanaRead1()">Svetlana: Hi!  My name is Svetlana.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="johnRead2()">John: How old are you?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="svetlanaRead2()">Svetlana: I am twenty three years old.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="johnRead3()">John: What do you do?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="svetlanaRead3()">Svetlana: I am a teacher.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="johnRead4()">John: Where are you from?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="svetlanaRead4()">Svetlana: I am from Russia.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="johnRead5()">John: What is your nationality?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<p onclick="svetlanaRead5()">Svetlana: I am Russian.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+				<button type="submit" onclick="eleven()">Speaking Practice</button>
+			</div>
+
+			<div class="twelve" id="twelve">
+				<h1>Listen to the conversation again</h1>
+				<p onclick="johnRead1()">John: Hello! What is your name?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">Svetlana: </label>
+				<div class="speech">
+			        <input type="textbox" name="s" id="svetlanaSpeak1" placeholder="Say Something"/>
+			        <img onclick="svetlanaSpeak1()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib3-error1"></p>
+
+				<p onclick="johnRead2()">John: How old are you?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">Svetlana: </label>
+				<div class="speech">
+			        <input type="textbox" name="s" id="svetlanaSpeak2" placeholder="Say Something"/>
+			        <img onclick="svetlanaSpeak2()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib3-error2"></p>
+
+				<p onclick="johnRead3()">John: What do you do?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">Svetlana: </label>
+				<div class="speech">
+			        <input type="textbox" name="s" id="svetlanaSpeak3" placeholder="Say Something"/>
+			        <img onclick="svetlanaSpeak3()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib3-error3"></p>
+
+				<p onclick="johnRead4()">John: Where are you from?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">Svetlana: </label>
+				<div class="speech">
+			        <input type="textbox" name="s" id="svetlanaSpeak4" placeholder="Say Something"/>
+			        <img onclick="svetlanaSpeak4()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib3-error4"></p>
+
+				<p onclick="johnRead5()">John: What is your nationality?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">Svetlana: </label>
+				<div class="speech">
+			        <input type="textbox" name="s" id="svetlanaSpeak5" placeholder="Say Something"/>
+			        <img onclick="svetlanaSpeak5()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib3-error5"></p>
+
+				<button type="submit" onclick="twelve()">Question Practice</button>
+			</div>
+
+			<div class="thirteen" id="thirteen">
+				<h1>Listen to the conversation again</h1>
+
+				<label for="s">John: </label>
+				<div class="speech">
+			        <input type="text" name="s" id="johnSpeak1" placeholder="Say Something"/>
+			        <img onclick="johnSpeak1()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib4-error1"></p>
+
+				<p onclick="svetlanaRead1()">Svetlana: Hi!  My name is Svetlana.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">John: </label>
+				<div class="speech">
+			        <input type="text" name="s" id="johnSpeak2" placeholder="Say Something"/>
+			        <img onclick="johnSpeak2()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib4-error2"></p>
+
+				<p onclick="svetlanaRead2()">Svetlana: I am twenty three years old.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">John: </label>
+				<div class="speech">
+			        <input type="text" name="s" id="johnSpeak3" placeholder="Say Something"/>
+			        <img onclick="johnSpeak3()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib4-error3"></p>
+
+				<p onclick="svetlanaRead3()">Svetlana: I am a teacher.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">John: </label>
+				<div class="speech">
+			        <input type="text" name="s" id="johnSpeak4" placeholder="Say Something"/>
+			        <img onclick="johnSpeak4()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib4-error4"></p>
+
+				<p onclick="svetlanaRead4()">Svetlana: I am from Russia.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<label for="s">John: </label>
+				<div class="speech">
+			        <input type="text" name="s" id="johnSpeak5" placeholder="Say Something"/>
+			        <img onclick="johnSpeak5()" src="https://i.imgur.com/cHidSVu.gif" />
+		        </div>
+		        <p class="error" id="fib4-error5"></p>
+
+				<p onclick="svetlanaRead5()">Svetlana:I am Russian.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click me!</p>
+
+				<button type="submit" onclick="thirteen()">Speaking Practice</button>
+			</div>
+			
+			<div class="fourteen" id="fourteen">
+				<h1>Great Work!</h1>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="scripts/lesson1-navigation.js"></script>
+	<script type="text/javascript" src="scripts/lesson1-chatbox.js"></script>
+	<script type="text/javascript" src="scripts/lesson1-listen.js"></script>
+	</body>
+	
+</html>

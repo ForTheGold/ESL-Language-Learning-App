@@ -1,0 +1,112 @@
+.wrapper {
+	padding: 100px;
+}
+
+.learn {
+	display: inline-block;
+}
+
+.answer-practice {
+	display: none;
+}
+
+.question-practice {
+	display: none;
+}
+
+.chat {
+	display: none;
+}
+
+.listen {
+	display: none;
+}
+
+.zero {
+	display: inline-block;
+}
+
+.one {
+	display: none;
+}
+
+.two {
+	display: none;
+}
+
+.three {
+	display: none;
+}
+
+.four {
+	display: inline-block;
+}
+
+.five {
+	display: none;
+}
+
+.six {
+	display: none;
+}
+
+.seven {
+	display: none;
+}
+
+.eight {
+	display: inline-block;
+}
+
+.nine {
+	display: none;
+}
+
+.ten {
+	display: none;
+}
+
+.eleven {
+	display: inline-block;
+}
+
+.twelve {
+	display: none;
+}
+
+.thirteen {
+	display: none;
+}
+
+.fourteen {
+	display: none;
+}
+
+.speech {
+border: 1px solid #DDD;
+width:300px;
+padding:0;
+margin:0
+}
+
+.speech input {
+border:0;
+width:240px;
+display:inline-block;
+height:30px;
+font-size: 14px;
+}
+
+.speech img {
+float:right;
+width:40px
+}
+
+button {
+	padding: 30px;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
