@@ -9,9 +9,9 @@ This app was built with the idea that the best way to learn a language is throug
 
 Since this is a beginner lesson, we start with the learner memorizing a simple conversation and then going through several practice activities that get progressively more difficult.
 
-# Activities
+## Activities
 
-## Practice Activities
+### Practice Activities
 
 The practice acitivies increase in difficulty as the learner progresses
 
@@ -19,11 +19,11 @@ We start with drop down fill in the blank activites followed by fill in the blan
 
 It is always important to ensure that the learners learn both the questions as well as the responses, so similar activities are included for the questions.
 
-## Chat Activities
+### Chat Activities
 
 The chat activitivities ask the user the produce the entire sentence and question of their own accord.  This is increasing the difficulty slowly.  The chat app is also a cool looking application that appears as a Facebook style chat app.  This helps to show that language is used in real life.
 
-## Listening and Speaking Activities
+### Listening and Speaking Activities
 
 The computer uses text to speech to produce the sentence using a mechanical voice to give the user listening practice.
 
