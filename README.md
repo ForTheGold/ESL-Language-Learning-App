@@ -10,7 +10,7 @@ Since this is a beginner lesson, we start with the learner memorizing a simple c
 
 ## Practice Activities
 
-We start off with relatively easy practice activities and the activities increase in difficulty as the learner progresses.  We also start off with more receptive activities and then move onto productive activities as the learner gets more familiar with the material.
+We start off with relatively easy practice activities and the activities increase in difficulty as the learner progresses.  We also start off with more receptive activities and then move onto productive activities as the learner gets more familiar with the material.  Also note that each of the activities have custom error messages that indicate where the user has gone wrong.
 
 ### Learning Tab
 
@@ -34,7 +34,7 @@ It is always important to ensure that the learners learn both the questions as w
 
 ### Chat Activities
 
-The chat activities ask the user to produce the entire response and question of their own accord.  This is increasing the difficulty slowly.  The chat app is also a cool looking application that appears as a Facebook style chat app.  This helps to show that language is used in real life.  This activity can be viewed below
+The chat activities ask the user to produce the entire response and question of their own accord.  This is increasing the difficulty slowly.  The chat app is also a cool looking application that appears as a Facebook style chat app.  This helps to show that language is used in real life.  Also note the hint button that tells the user what to do next in case they forgot the order of the conversation.  This activity can be viewed below.
 
 ![Chat1](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Chat1.png)
 ![Chat2](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Chat2.png)
