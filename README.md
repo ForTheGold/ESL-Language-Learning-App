@@ -1,11 +1,10 @@
-# LanguageLearningApp_JS
-## An ESL App for English Language Learners
+# An ESL App for English Language Learners
 
 This is the beginnings of a language learning app for ESL language learners.  There is only one lesson, but this could be expanded to greater and greater difficulty.
 
 ### Philosophy of Education
 
-This app was built with the idea that the best way to learn a language is through practice.  The purpose is to give the learner as little explanation as is necessary in order to understand something along with as much practice as possible.
+This app was built with the idea that the best way to learn a language is through practice and constant repetition rather than through a great deal of explanation.  The purpose is to give the learner as little explanation as is necessary in order to understand the lesson.  This is so that they may move onto practice activities as soon as possible.  The user then goes through receptive activies such as choosing items from a list or listening to the sentences which are produced through text to speech.  The user then moves onto more difficult productive activites such as writing and speaking.  The computer checks the accuracy of the users speech through vocal recognition.
 
 Since this is a beginner lesson, we start with the learner memorizing a simple conversation and then going through several practice activities that get progressively more difficult.
 
@@ -13,7 +12,7 @@ Since this is a beginner lesson, we start with the learner memorizing a simple c
 
 ### Practice Activities
 
-The practice acitivies increase in difficulty as the learner progresses
+The practice acitivies increase in difficulty as the learner progresses.
 
 We start with drop down fill in the blank activites followed by fill in the blanks where the user needs to type out the missing words in the answer.  We finish off with user completing nearly the entire sentence alone.
 
