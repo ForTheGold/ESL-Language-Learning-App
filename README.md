@@ -16,7 +16,7 @@ We start off with relatively easy practice activities and the activities increas
 
 The first thing the user does is simply read and memorize a conversation that is printed on the screen which can viewed in the following image.  You can also see the navigation bar across the top which is used to navigate through the site.
 
-
+![Learn](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Learn.png)
 
 ### Response Practice Tab
 
@@ -28,21 +28,26 @@ We start the user off with practicing the responses through progressively more d
 
 It is always important to ensure that the learners learn both the questions as well as the responses, so similar activities are included for the questions.  We start off with a drop down fill in the blank activity, then move onto a fill in the blank where one word per a sentence needs to be typed out and finish off with the user typing out nearly the entire sentence.  These activities can be viewed below.
 
-
+![Question1](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Question1.png)
+![Question2](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Question2.png)
+![Question3](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Question3.png)
 
 ### Chat Activities
 
 The chat activities ask the user to produce the entire response and question of their own accord.  This is increasing the difficulty slowly.  The chat app is also a cool looking application that appears as a Facebook style chat app.  This helps to show that language is used in real life.  This activity can be viewed below
 
-
+![Chat1](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Chat1.png)
+![Chat2](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Chat2.png)
+![Chat3](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/Chat3.png)
 
 ### Listening and Speaking Activities
 
 The computer uses text to speech to produce the sentence using a mechanical voice to give the user listening practice.  This is activated by clicking the “Click me!” link on the right hand side of the sentence as shown below.
 
-
+![ListenAndSpeak1](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/ListenAndSpeak1.png)
 
 The computer uses speech recognition to interpret what the user said and verify the accuracy of the sentence they produced as well as their pronunciation.  This type of practice activity is included for both the responses and the questions as shown below.  The user can click the microphone icon on the right side of the input box and the browser will begin recording.
 
-
+![ListenAndSpeak2](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/ListenAndSpeak2.png)
+![ListenAndSpeak3](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/ListenAndSpeak3.png)
 
