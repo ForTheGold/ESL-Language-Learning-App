@@ -42,7 +42,7 @@ The chat activities ask the user to produce the entire response and question of 
 
 ### Listening and Speaking Activities
 
-The computer uses text to speech to produce the sentence using a mechanical voice to give the user listening practice.  This is activated by clicking the ìClick me!î link on the right hand side of the sentence as shown below.
+The computer uses text to speech to produce the sentence using a mechanical voice to give the user listening practice.  This is activated by clicking the ‚ÄúClick me!‚Äù link on the right hand side of the sentence as shown below.
 
 ![ListenAndSpeak1](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/ListenAndSpeak1.png)
 
@@ -51,3 +51,8 @@ The computer uses speech recognition to interpret what the user said and verify 
 ![ListenAndSpeak2](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/ListenAndSpeak2.png)
 ![ListenAndSpeak3](https://github.com/ForTheGold/ESL-Language-Learning-App/blob/main/Resources/ListenAndSpeak3.png)
 
+## Technologies
+
+* JavaScript
+* HTML, CSS
+* Web Speech API (Vocal Recognition, Text to Speech)
